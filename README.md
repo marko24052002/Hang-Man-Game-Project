@@ -53,3 +53,9 @@ and the objective is to guess the entire word before all lifes are lost .
 5. Testing – verifying all functionalities.
 7. Expected Outcome
 By the end of the project, users will be able to play the “Hangman” game directly in their browser without installing anything. The game will be simple, responsive, and educational.
+
+[img](
+
+
+
+
