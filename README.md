@@ -33,7 +33,7 @@ and the objective is to guess the entire word before the figure is completed.
 
 
 5. Project Structure
-/hangman
+-hangman
 │── index.html       → basic structure of the game
 │── style.css        → styles and design
 │── script.js        → game logic
