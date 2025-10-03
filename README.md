@@ -4,8 +4,8 @@ HANGMAN
 1. Project Description
 The goal of this project is to create a simple browser-based “Hangman” game using HTML, 
 CSS, and JavaScript. The game allows the user to guess the letters of a hidden word, 
-with a limited number of attempts. Each wrong guess “adds” a part of the gallows, 
-and the objective is to guess the entire word before the figure is completed.
+with a limited number of attempts. Each wrong guess remove one life
+and the objective is to guess the entire word before all lifes are lost .
 
 
 2. Project Goals
@@ -16,12 +16,17 @@ and the objective is to guess the entire word before the figure is completed.
 
   
 3. Game Features
-- Random word selection from a predefined list.
-- Display of dashes for each letter of the hidden word.
-- Input of letters through keyboard or clicks.
-- Real-time display of correct and incorrect letters.
-- Tracking of remaining attempts.
-- Display of “Win” or “Lose” messages and an option to restart the game.
+- Random word selection from a predefined array.
+- Display of dashes for each letter of the hidden word based on the lenght.
+- Input of letters through clicks.
+- Real-time display of correct and incorrect letters.(disable letters)
+- Tracking of remaining attempts. number of lifes
+- Display of “Win” if - when the entire word is corect.
+-
+-
+- or “Lose” messages if - when life is equal to 0.
+-
+-   And an option to restart the game.
 - (Optional) Animation of adding parts of the gallows after each wrong guess.
 - (Optional) Sound effects for correct and incorrect answers.
 
