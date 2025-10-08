@@ -1,0 +1,87 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman - Graveyard Edition</title>
+    <script defer src="./js/app.js"></script>
+
+<link rel="stylesheet" href="./css/style.css">
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="header-controls">
+            <button class="restart-btn" id="restart-btn">Restart Game</button>
+            <div class="lives" id="lives">Lives: 6</div>
+        </div>
+        
+        <h1>HANGMAN</h1>
+        
+        <div class="game-area">
+            <div class="hangman-container">
+                <div class="hangman-drawing">
+                    <div class="part gallows"></div>
+                    <div class="part pole"></div>
+                    <div class="part beam"></div>
+                    <div class="part rope"></div>
+                    <div class="part head"></div>
+                    <div class="part body"></div>
+                    <div class="part left-arm"></div>
+                    <div class="part right-arm"></div>
+                    <div class="part left-leg"></div>
+                    <div class="part right-leg"></div>
+                </div>
+            </div>
+            
+            <div class="word-display" id="word-display"></div>
+            
+            <div class="message" id="message"></div>
+            
+            <div class="letters" id="letters">
+                <button class="letter">A</button>
+                <button class="letter">B</button>
+                <button class="letter">C</button>
+                <button class="letter">D</button>
+                <button class="letter">E</button>
+                <button class="letter">F</button>
+                <button class="letter">G</button>
+                <button class="letter">H</button>
+                <button class="letter">I</button>
+                <button class="letter">J</button>
+                <button class="letter">K</button>
+                <button class="letter">L</button>
+                <button class="letter">M</button>
+                <button class="letter">N</button>
+                <button class="letter">O</button>
+                <button class="letter">P</button>
+                <button class="letter">Q</button>
+                <button class="letter">R</button>
+                <button class="letter">S</button>
+                <button class="letter">T</button>
+                <button class="letter">U</button>
+                <button class="letter">V</button>
+                <button class="letter">W</button>
+                <button class="letter">X</button>
+                <button class="letter">Y</button>
+                <button class="letter">Z</button>
+            </div>
+            
+            <div class="guess-word">
+                <input type="text" id="word-input" placeholder="Guess the whole word">
+                <button id="guess-btn">Guess Word</button>
+            </div>
+            
+            <div class="instructions">
+                <p>Guess the music group name • 6 lives • Click letters or guess whole word</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
