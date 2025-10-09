@@ -8,6 +8,7 @@ CSS, and JavaScript. The game allows the user to guess the letters of a hidden w
 with a limited number of attempts. Each wrong guess remove one life
 and the objective is to guess the entire word before all lifes are lost .
 
+[Play the game here!](https://marko24052002.github.io/Hang-Man-Game-Project/)
 
 ## 2. Project Goals
 
